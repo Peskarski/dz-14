@@ -1,0 +1,29 @@
+.add-note {
+    margin-left: 16px;
+    margin-top: 16px;
+}
+
+.block {
+    height: 300px;
+    width: 200px;
+    border: 2px solid rgb(114, 59, 216);
+    border-radius: 4px;
+    background-color:rgba(203, 215, 233, 0.911);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+
+.uppper-container, .bottom-container {
+    text-align: right;
+    width: 100%;
+}
+
+.note-text {
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 4px;
+    font-weight: bold;
+    margin-bottom: auto;
+}
